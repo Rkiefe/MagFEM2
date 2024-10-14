@@ -8,4 +8,4 @@ Using $\vec{H} = \vec{H}_{ext} - \nabla u$ and $\vec{M} = \chi \vec{H}$ gets us 
 
 Now by using the basic principle behind FEM:
 
-$int_\Omega (1+\chi)\nabla u \cdot \nabla \phi dV = \int_\Omega \chi \vec{H}_{ext}\phi dV$
+$\int_\Omega (1+\chi)\nabla u \cdot \nabla \phi dV = \int_\Omega \chi \vec{H}_{ext}\phi dV$
