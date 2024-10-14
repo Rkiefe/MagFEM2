@@ -9,3 +9,5 @@ Using $\vec{H} = \vec{H}_{ext} - \nabla u$ and $\vec{M} = \chi \vec{H}$ gets us 
 Now by using the basic principle behind FEM:
 
 $\int_\Omega (1+\chi)\nabla u \cdot \nabla \phi dV = \int_\Omega \chi \vec{H}_{ext}\phi dV$
+
+$\Omega$ is the magnetic domain. Unfortunately, the surrouding region (air) also has to be solved in because of the open boundary problem. You can implement BEM to deal with this issue and only solve for the internal (magnetic) region.
