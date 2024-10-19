@@ -11,7 +11,7 @@ Using
 
 $\vec{H} = \vec{H}_{ext} - \nabla u$ and $\vec{M} = \chi \vec{H}$ gets us $\nabla^2 u = \nabla \cdot \vec{M}$
 
-Now by using the basic principle behind FEM and $\vec{H} = - \nabla u $:
+Now by using the basic principle behind FEM: $u=\sum_i u_i \phi_i$:
 
 $\int_\Omega (1+\chi)\nabla u \cdot \nabla \phi dV = \int_\Omega \chi \vec{H}_{ext} \cdot \nabla \phi dV$
 
