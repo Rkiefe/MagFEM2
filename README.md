@@ -15,4 +15,4 @@ Now by using the basic principle behind FEM: $u=\sum_i u_i \phi_i$:
 
 $\int_\Omega (1+\chi)\nabla u \cdot \nabla \phi dV = \int_\Omega \chi \vec{H}_{ext} \cdot \nabla \phi dV$
 
-$\Omega$ is the magnetic domain. Unfortunately, the surrouding region (air) also has to be solved in because of the open boundary problem. You can implement BEM to deal with this issue and only solve for the internal (magnetic) region.
+$\Omega$ is the magnetic domain. Unfortunately, the surrouding region (air) also has to be solved for, because of the "open boundary problem". You can implement BEM to deal with this issue and only solve for the internal (magnetic) region.
